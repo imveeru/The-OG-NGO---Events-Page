@@ -1,18 +1,18 @@
 # The OG NGO-Events Page
 
-##Installation
+## Installation
 Clone the repository and use npm to install dependencies in both backend and frontend directories seperately.
 ```bash
 npm install
 ```
 
-##Backend
+## Backend
 Open terminal in backend directory and run the node/express server using the following command.
 ```bash
 npm run server
 ```
 
-##Frontend
+## Frontend
 Open terminal in frontend directory and run the React frontend using the following command.
 ```bash
 npm start
@@ -20,10 +20,10 @@ npm start
 
 The frontend is served on [localhost:3000](http://localhost:3000/)
 
-##Database
+## Database
 Create a database named og_ngo.
 
-##Creating events table
+### Creating events table
 ```SQL
 CREATE TABLE `events` (
   `id` int(10) UNSIGNED NOT NULL,
@@ -33,7 +33,7 @@ CREATE TABLE `events` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
-##Creating users table
+### Creating users table
 ```SQL
 CREATE TABLE `users` (
   `id` int(10) UNSIGNED NOT NULL,
