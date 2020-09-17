@@ -89,7 +89,7 @@ var mysqlConnection = mysql.createConnection({
                 //messaging
                 const from = 'THE OG NGO';
                 const to = '91'+req.body.mobile;
-                const text = 'Hi '+req.body.name+', thankyou for enrolling.Stay connected with us. - The OG NGO.';
+                const text = 'Hi '+req.body.name+', thankyou for enrolling. Stay connected with us. - The OG NGO.';
       
                 nexmo.message.sendSms(from, to, text,(error,results)=>{
                   if(error){
